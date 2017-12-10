@@ -1,0 +1,29 @@
+{
+  "name": "NodeJS-API",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku-examples/node-ws-test.git"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.15.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "feedparser": "^2.2.4",
+    "ignore-case": "^0.1.0",
+    "pg": "^4.5.7",
+    "twitter": "^1.7.1",
+    "ws": "0.4.x"
+  },
+  "engines": {
+    "node": "4.6.2"
+  },
+  "scripts": {
+    "start": "node node.js",
+    "test": "mocha tests"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}

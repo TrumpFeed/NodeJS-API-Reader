@@ -41,6 +41,11 @@ pg.connect(process.env.DATABASE_URL || credentials.database, function(err, clien
     //
     // twitterFeed();
     // cnnFeed();
+  
+    setInterval(function(){
+      //call server
+      http.get(credentials.herokuServer, function () {});
+    }, credentials.pingServerHeroku);
 
 });
 var that = this;
